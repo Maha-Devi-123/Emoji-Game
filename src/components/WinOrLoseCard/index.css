@@ -1,0 +1,113 @@
+.win-loss-can {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  width: 85%;
+  border: 3px solid #ffffff30;
+  border-radius: 25px;
+  margin: auto;
+  padding: 16px;
+}
+@media screen and (min-width: 768px) {
+  .win-loss-can {
+    width: 80%;
+    padding: 32px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .win-loss-can {
+    flex-direction: row;
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .win-loss-can {
+    width: 60%;
+  }
+}
+.win-loss-img {
+  width: 150px;
+  height: 200px;
+}
+@media screen and (min-width: 992px) {
+  .win-loss-img {
+    width: 310px;
+    height: 410px;
+  }
+}
+.lose-win-head {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 500;
+}
+@media screen and (min-width: 992px) {
+  .lose-win-head {
+    font-size: 55px;
+  }
+}
+.score-head {
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+@media screen and (min-width: 992px) {
+  .score-head {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+}
+.score-count {
+  text-align: center;
+  font-size: 30px;
+  color: #6a59ff;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .score-count {
+    font-size: 42px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+.win-loss-text-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 992px) {
+  .win-loss-text-card {
+    order: 0;
+  }
+}
+.try-again-button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+.image-section-container {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+@media screen and (min-width: 992px) {
+  .image-section-container {
+    order: 1;
+  }
+}
